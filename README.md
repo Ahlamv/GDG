@@ -1,1 +1,1 @@
-# GDG
+simple HTML and CSS project 
