@@ -1,0 +1,20 @@
+h1{
+    color:rgb(87, 8, 8);
+    border: 3px solid  hsl(262, 100%, 56%);
+    border-radius: 20px ;
+    text-align:center;
+    text-shadow: 3px 3px 5px hsl(271, 61%, 63%) ;
+    
+}
+#topic{
+    color:rgb(87, 8, 8)
+}
+#ita{
+    font-weight:bold;
+}
+#box{
+    width: 520px;
+    height:520px;
+    background-color: hsl(262, 100%, 80%);
+    box-shadow: 3px 3px 5px;
+}

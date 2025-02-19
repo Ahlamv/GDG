@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+</head>
+<body >
+    <link rel="stylesheet" href="style.css">
+    <h1 style="color:hsl(284, 80%, 45%)">Welcome to our website</h1>
+    <h3 style="color:darkviolet"><u>Creat your account</u></h3>
+    <form id="box" action="index.php" method="POST"><br>
+       <label for="username">Username:</label>   
+       <input type="text" id="username" placeholder="Input your username" minlength="8" maxlength="15" required><br><br>
+
+       <label for="password">Password:</label>
+       <input type="password" id="password"><br><br>
+
+       <label for="email">Email:</label>
+       <input type="email" id="email" placeholder="abebealemu@gmail.com"><br><br>
+
+       <label for="phone">Phone No:</label>
+       <input type="tel" id="phone" placeholder="0911111111"><br><br>
+
+       <label for="bdate">Birthday:</label>
+       <input type="date" id="bdate"><br><br>
+
+       <label for="student">Are you AASTU student</label>
+       <input type="checkbox" id="student">
+       <br><br>
+
+       <label for="Bachelors">Bachelors</label>
+       <input type="radio" id="" value="Bachelors" name="Education">
+       <label for="Masters">Masters</label>
+       <input type="radio" id="Masters" value="Masters" name="Education">
+       <label for="mr">PHD</label>
+       <input type="radio" id="mr" value="mr" name="Education">
+       <br><br>
+
+       <label for="year">Acadamic year</label>
+       <select id="Year">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+       </select>
+       <br><br>
+       <label for="file">Insert your acadamic information file:</label>
+       <input type="file" id="file">
+       
+       <br><br>
+
+       <input type="Reset"><br>
+       <input type="Submit">
+       
+    </form>
+    <br><br>
+<button style="font-size:16px; background-color:rgb(59, 59, 174); color:rgb(235, 241, 239); border-radius:25px">Next</button>   
+</body>
+</html>
