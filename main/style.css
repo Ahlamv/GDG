@@ -15,6 +15,7 @@ h1{
 #box{
     width: 520px;
     height:520px;
-    background-color: hsl(262, 100%, 80%);
+    background-color:rgb(242, 252, 252); ;
     box-shadow: 3px 3px 5px;
+    border-radius: 20px;
 }
