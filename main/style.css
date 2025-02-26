@@ -12,10 +12,20 @@ h1{
 #ita{
     font-weight:bold;
 }
-#box{
-    width: 520px;
-    height:520px;
-    background-color:rgb(242, 252, 252); ;
+div{
+    color:rgb(95, 82, 65);
+    font-size:1.2em;
+    width:800px;
+    height:100px;
+    background-color:rgb(242, 252, 252); 
+    text-align:center;
     box-shadow: 3px 3px 5px;
-    border-radius: 20px;
+    border-radius:20px;
+    margin: 20px auto;
+}
+input{
+        width: 60%; 
+        height: 5px; 
+        padding: 15px;
+        font-size: 15px; 
 }

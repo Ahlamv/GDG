@@ -9,26 +9,33 @@
     <link rel="stylesheet" href="style.css">
     <h1 style="color:hsl(284, 80%, 45%)">Welcome to our website</h1>
     <h3 style="color:darkviolet"><u>Creat your account</u></h3>
-    <form id="box" action="index.php" method="POST"><br>
-       <label for="username">Username:</label>   
+    <form class="form" action="index.php" method="POST"><br>
+       <div class="box" id="box1">
+       <label for="username">Username:<br></label>   
        <input type="text" id="username" placeholder="Input your username" minlength="8" maxlength="15" required><br><br>
-
-       <label for="password">Password:</label>
+       </div>
+       <div class="box" id="box2">
+       <label for="password">Password:<br></label>
        <input type="password" id="password"><br><br>
-
-       <label for="email">Email:</label>
+       </div>
+       <div class="box" id="box3">
+       <label for="email">Email:<br></label>
        <input type="email" id="email" placeholder="abebealemu@gmail.com"><br><br>
-
-       <label for="phone">Phone No:</label>
+       </div>
+       <div class="box" id="box4">
+       <label for="phone">Phone No:<br></label>
        <input type="tel" id="phone" placeholder="0911111111"><br><br>
-
-       <label for="bdate">Birthday:</label>
+        </div>
+        <div class="box" id="box9">
+       <label for="bdate">Birthday:<br></label>
        <input type="date" id="bdate"><br><br>
-
+       </div>
+       <div class="box" id="box5">
        <label for="student">Are you AASTU student</label>
        <input type="checkbox" id="student">
        <br><br>
-
+        </div>
+        <div class="box" id="box6">
        <label for="Bachelors">Bachelors</label>
        <input type="radio" id="" value="Bachelors" name="Education">
        <label for="Masters">Masters</label>
@@ -36,8 +43,9 @@
        <label for="mr">PHD</label>
        <input type="radio" id="mr" value="mr" name="Education">
        <br><br>
-
-       <label for="year">Acadamic year</label>
+        </div>
+        <div class="box" id="box7">
+       <label for="year">Acadamic year:<br></label>
        <select id="Year">
           <option>1</option>
           <option>2</option>
@@ -46,11 +54,13 @@
           <option>5</option>
        </select>
        <br><br>
-       <label for="file">Insert your acadamic information file:</label>
+       </div>
+       <div class="box" id="box8">
+       <label for="file">Insert your acadamic information file:<br></label>
        <input type="file" id="file">
        
        <br><br>
-
+       </div>
        <input type="Reset"><br>
        <input type="Submit">
        
