@@ -17,12 +17,44 @@ main{
     font-size:1.7em;
     padding:40px;
 }
-li{
+.main li{
     font-weight: normal;
     font-size: 20px;
-    padding-bottom:10px;
+    padding-bottom:15px;
     
 }
+.main li::marker{
+    content:"✔️"
+}
+h1::before{
+    content:"👉"
+}
+.navbar ul{
+    background-color:rgb(39, 35, 35);
+    margin-top: 0px;
+    width:100%;
+    position:fixed;
+    top:0px;
+    list-style-type: none;
+}
+.navbar a{
+    color:#ccc;
+    text-decoration: none;
+    text-align:center;
+    display: block;
+    padding: 15px;
+   
+}
+.navbar a:hover{
+    background-color:rgb(71, 70, 70);
+    font-size:1.2em;
+    color:white;
+
+}
+.navbar li{
+    float:left;
+}
+   
 input[type="text"] {
     padding: 8px;
     border: 3px solid #ccc;
@@ -39,17 +71,24 @@ h1,p{
     margin:8px;
     border-radius: 25px;
     padding:13px;
-    display:flex;
+    display:inline-block;
     box-sizing:border-box;
+    
+  
 
-
+}
+.box:hover{
+    width:33%;
+    height:250px;
+    font-size:1.2em;
 }
 #box1{
     color:whitesmoke;
     background-image: url(../assets/img2.webp);
     background-position: center;
-    background-size: 105% ;
+    background-size: 105%;
     background-repeat: no-repeat;
+   
 
 }
 #box2{
@@ -58,24 +97,44 @@ h1,p{
     background-position: center;
     background-size: 105%;
     background-repeat: no-repeat;
+  
 
 }
 
 #box3{
     background-color: #ccc;
     color:black;
+   
 }
 #box4{
     width:65%;
     color:black;
+    margin:0px;
     background-image: url(../assets/img4.webp);
     background-size:100%;
     background-position:center;
     background-repeat:no-repeat;
+   
 }
 
-@media (max-width: 600px){
-    .box{
-        flex-direction:column;
+#foot{
+    background-color:rgb(39, 35, 35);
+    color: #ccc;
+    top:500px;
+    overflow:hidden;
+   
+}
+h2::after{
+    content:"🥰🥰"
+}
+#dive{
+    display:block;
+    background-color:white;
+    height: 550px;;
+    width:100%;
+}
+@media screen and(max-width:600px){
+    #box1,#box2,#box3,#box4{
+        width:100%;
     }
 }
