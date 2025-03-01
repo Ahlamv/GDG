@@ -82,6 +82,11 @@ h1,p{
     height:250px;
     font-size:1.2em;
 }
+#box4:hover{
+    width:30%;
+    height:250px;
+    font-size:1.2em;
+}
 #box1{
     color:whitesmoke;
     background-image: url(../assets/img2.webp);
@@ -100,13 +105,16 @@ h1,p{
   
 
 }
-
 #box3{
+    background-color: #ccc;
+    color:black;
+}
+#box4{
     background-color: #ccc;
     color:black;
    
 }
-#box4{
+#box5{
     width:65%;
     color:black;
     margin:0px;
