@@ -101,7 +101,8 @@ section p{
     margin:10px;
 }
 .img2{
-    margin-left:250px;
+   display: block;
+   margin:auto;
 }
 .button1{
     border:none ;
@@ -110,4 +111,29 @@ section p{
     font-size: 20px;
     color:white;
     padding: 8px;
+}
+input {
+    border: 2px solid rgb(216, 215, 215);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    width:45%;
+  
+}
+.form{
+  text-align: center;
+    
+}
+.button3{
+    border:3px solid rgb(1, 79, 15);
+    border-radius: 10px;
+    background-color:rgb(216, 215, 215);
+    font-size: 20px;
+    color:rgb(1, 79, 15);
+    padding:6px; 
+    margin:8px;
+    font-weight: bold;   
+}
+.butt{
+    text-align:center;
 }
