@@ -1,0 +1,113 @@
+body{
+    margin:0;
+}
+.navbar div{
+   background-color:rgb(1, 79, 15); 
+   padding-top: 10px;
+   padding-bottom: 40px;
+   
+}
+.navbar img{
+    float: left;
+}
+.navbar a{
+    color:white;
+    display: bolck;
+    text-decoration: none;
+    padding:8px;
+    text-align: right;
+    
+}
+.navbar ul{
+    list-style-type: none;
+  
+
+}
+.navbar li{
+    float:left;
+    margin-left:250px;
+    
+}
+div h3{
+    color:white;
+    position: relative;
+}
+main{
+  
+    padding: 20px;
+    text-align: left;
+    background-image: url("./assets/Hero-section.jpg");
+    background-size:100% ;
+    height:380px;
+    filter: brightness(60%);
+}
+button{
+    border:none ;
+    border-radius: 20px;
+    background-color:rgb(1, 79, 15);
+    font-size: 20px;
+    color:white;
+    padding: 8px;
+}
+.title{
+    text-align: center;
+    color: rgb(1, 79, 15);
+}
+h1{
+    font-size: 35px;
+    margin:50px;
+}
+img{
+    margin:20px;
+}
+p::first-letter{
+    color:rgb(1, 79, 15);
+}
+section p{
+    font-size:20px;
+    margin:18px;
+    font-weight: bold;
+}
+.img1{
+    float:right;
+}
+.main{
+    background-color: aliceblue;
+    height:520px;
+    margin:15px;
+    text-align: center;
+    
+}
+.box{
+    margin:20px;
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(1, 79, 15) ;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    padding: 20px;
+    width:75%;
+    height:150px;
+    font-size: 20px;
+}
+.button2{
+    border:none ;
+    border-radius: 10px;
+    background-color:white;
+    font-size: 20px;
+    color:rgb(1, 79, 15);
+    padding: 8px; 
+    margin:10px;
+}
+.img2{
+    margin-left:250px;
+}
+.button1{
+    border:none ;
+    border-radius: 10px;
+    background-color:rgb(1, 79, 15);
+    font-size: 20px;
+    color:white;
+    padding: 8px;
+}
