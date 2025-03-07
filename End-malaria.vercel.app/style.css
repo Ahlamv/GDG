@@ -38,7 +38,7 @@ main{
     text-align: left;
     background-image: url("./assets/Hero-section.jpg");
     background-size:100% ;
-    height:380px;
+    height:500px;
     filter: brightness(60%);
 }
 button{
@@ -114,7 +114,7 @@ section p{
 }
 input {
     border: 2px solid rgb(216, 215, 215);
-    margin-bottom: 10px;
+    margin: 10px;
     border-radius: 5px;
     padding: 15px;
     width:45%;
@@ -137,3 +137,34 @@ input {
 .butt{
     text-align:center;
 }
+footer{
+    background-color: rgb(1, 79, 15);
+ 
+}
+
+.icon{
+   margin:10px;
+   color:white;
+   float:left;
+ 
+}
+.list a{
+    color:white;
+    display: bolck;
+    text-decoration: none;
+    margin:10px;
+    text-align: right;
+   
+}
+.list ul{
+    list-style-type: none;
+}
+.list{
+    float:left;
+}
+.text{
+    color:white;
+    margin-bottom: 0px;
+}
+
+
