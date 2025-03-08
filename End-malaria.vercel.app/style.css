@@ -1,32 +1,34 @@
 body{
-    margin:0;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
 }
-.navbar div{
+header{
    background-color:rgb(1, 79, 15); 
    padding-top: 10px;
    padding-bottom: 40px;
    
 }
-.navbar img{
-    float: left;
+.head{
+    display:flex;
+    flex-wrap:wrap;
 }
+
 .navbar a{
     color:white;
-    display: bolck;
+    display:block;
     text-decoration: none;
     padding:8px;
-    text-align: right;
     
 }
 .navbar ul{
     list-style-type: none;
-  
-
 }
-.navbar li{
-    float:left;
-    margin-left:250px;
-    
+.navlist div {
+    display:inline-block;
+    justify-content:flex-end;
+
 }
 div h3{
     color:white;
@@ -42,7 +44,7 @@ main{
     filter: brightness(60%);
 }
 button{
-    border:none ;
+    border:none;
     border-radius: 20px;
     background-color:rgb(1, 79, 15);
     font-size: 20px;
@@ -117,12 +119,15 @@ input {
     margin: 10px;
     border-radius: 5px;
     padding: 15px;
-    width:45%;
-  
+   /*width:70%;*/
 }
 .form{
-  text-align: center;
-    
+  text-align:center;
+}
+.fill{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
 }
 .button3{
     border:3px solid rgb(1, 79, 15);
@@ -142,10 +147,11 @@ footer{
  
 }
 
-.icon{
+#icon{
    margin:10px;
    color:white;
    float:left;
+   font-size: large;
  
 }
 .list a{
@@ -165,6 +171,14 @@ footer{
 .text{
     color:white;
     margin-bottom: 0px;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    font-size:1.2em;
+
+    
 }
 
 
