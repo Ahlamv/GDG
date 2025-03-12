@@ -64,6 +64,7 @@ h1,p{
     text-align: center;
 }
 .box{
+    display: flex;
     border:1px solid white;
     float:left;
     width:30%;
@@ -76,6 +77,9 @@ h1,p{
     
   
 
+}
+.container{
+    
 }
 .box:hover{
     width:33%;
@@ -141,8 +145,8 @@ h2::after{
     height: 550px;;
     width:100%;
 }
-@media screen and(max-width:600px){
-    #box1,#box2,#box3,#box4{
-        width:100%;
-    }
+@media screen and(max-width:768px){
+   .box{
+    flex-direction: column;
+   }
 }

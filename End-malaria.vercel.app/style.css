@@ -4,39 +4,39 @@ body{
         padding: 0;
         background-color: #f4f4f4;
 }
-header{
-   background-color:rgb(1, 79, 15); 
-   
+header .navbar{
+   background-color:rgb(1, 79, 15);
+   width: 100%;;
+   position: fixed;
+   z-index: 1000;
 }
 #head{
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between; 
 }
-
 .navbar a{
     color:white;
-    display:block;
+    display:inline-block;
     text-decoration: none;
-    padding:8px;
-    
 }
+
 .navbar ul{
     list-style-type: none;
 }
 .navlist div{
     display:inline-block;
     margin-left: 30px;
-
 }
 div h3{
     color:white;
     position: relative;
 }
 .txt{
+    margin-top: 15px;
     padding: 20px;
     text-align: right;
-    background:
+    background-image:
     linear-gradient(
         rgba(0,0,0,0.23),
         rgba(0,0,0,0.23)
@@ -86,11 +86,11 @@ section p{
     height:520px;
     margin:15px;
     text-align: center;
-    display: flex;
-    
+    display: flex;  
 }
 #box{
-    margin:20px;
+    display: block;
+    margin: auto;
     border: none;
     border-radius: 20px;
     background-color:rgb(1, 79, 15) ;
@@ -123,7 +123,7 @@ section p{
     color:white;
     padding: 8px;
 }
-input {
+input{
     border: 2px solid rgb(216, 215, 215);
     margin: 10px;
     border-radius: 5px;
@@ -160,7 +160,7 @@ footer{
 }
 .list a{
     color:white;
-    display: bolck;
+    display: inline-block;
     text-decoration: none;
     margin:10px;
     text-align: right;
@@ -177,9 +177,18 @@ footer{
     display: flex;
     flex-wrap:wrap;
     justify-content:space-between;
-    font-size:1.2em;
-
-    
+    font-size:1.2em;  
+}
+.checkbox{
+    font-size:30px;
+    line-height:80px;
+    float:right;
+}
+#check{
+   display:none;
+}
+.checkbox{
+    display: none;
 }
 @media screen and (max-width:768px){
   .container{
@@ -207,7 +216,27 @@ footer{
   }
   #box{
     width:90%;
-
   }
+  header .navbar{
+     height:65px;
+  }
+.navlist ul a{
+    display:none;
+  }
+  .checkbox{
+    display:block;
+    margin-right: 12px;
+    cursor:pointer;
+ }
+.navlist div{
+   display: block; 
+   padding: 12px;
+   background-color: rgb(65, 55, 55);
+}
+}
 
+
+
+
+  
 
